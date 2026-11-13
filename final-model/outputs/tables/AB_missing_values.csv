@@ -1,0 +1,19 @@
+Variable,Records,Missing,Missing (%),Literal 'NA' entries
+Age,566,62,11.0,0
+Condition,566,63,11.1,0
+Ground_Floor_Area,566,56,9.9,0
+First_Floor_Area,566,406,71.7,0
+Second_Floor_Area,566,517,91.3,0
+Third_Floor_Area,566,561,99.1,0
+Annual_Value,566,64,11.3,3
+Dist_AB_Road,566,0,0.0,0
+Dist_Bank,566,0,0.0,0
+Dist_Bus_Stop,566,0,0.0,0
+Dist_CBD,566,0,0.0,0
+Dist_Hospital,566,0,0.0,0
+Dist_Pharmacy,566,0,0.0,0
+Dist_Playground,566,0,0.0,0
+Dist_Railway,566,0,0.0,0
+Dist_School,566,0,0.0,0
+Dist_Shopping_Mall,566,0,0.0,0
+Dist_Supermarket,566,0,0.0,0

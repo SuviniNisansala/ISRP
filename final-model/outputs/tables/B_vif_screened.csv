@@ -1,0 +1,11 @@
+Variable,VIF,VIF > 5
+Dist_Railway,2.3794016095945403,False
+Condition_Good,2.2194151895457757,False
+Log_Total_Floor_Area,2.138545242952792,False
+Dist_Hospital,2.0430037226102233,False
+Dist_AB_Road,1.9336225172334078,False
+Condition_Fair+,1.796516078270023,False
+Age,1.5144478172107037,False
+Num_Floors,1.4865029132008536,False
+Condition_Fair-,1.2463668651097206,False
+Condition_Poor,1.1029120077337162,False

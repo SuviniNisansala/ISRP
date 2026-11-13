@@ -1,0 +1,17 @@
+Band,n,AV_min,AV_max,Median_ratio,Model set,Algorithm
+Q1,26,1152.0,8640.0,1.0106752613749648,Model A - property only,Multiple Linear Regression
+Q2,25,9000.0,16320.0,1.1078731224475584,Model A - property only,Multiple Linear Regression
+Q3,25,17280.0,30720.0,0.9999952889869254,Model A - property only,Multiple Linear Regression
+Q4,25,32640.0,115200.0,0.9113445777423148,Model A - property only,Multiple Linear Regression
+Q1,26,1152.0,8640.0,1.0227802464120948,Model B - property + GIS,Multiple Linear Regression
+Q2,25,9000.0,16320.0,1.065547647455466,Model B - property + GIS,Multiple Linear Regression
+Q3,25,17280.0,30720.0,0.9985217663519282,Model B - property + GIS,Multiple Linear Regression
+Q4,25,32640.0,115200.0,0.904524802194805,Model B - property + GIS,Multiple Linear Regression
+Q1,26,1152.0,8640.0,1.0198258994282157,Model A - property only,XGBoost
+Q2,25,9000.0,16320.0,1.0153501313308189,Model A - property only,XGBoost
+Q3,25,17280.0,30720.0,1.0290102810329862,Model A - property only,XGBoost
+Q4,25,32640.0,115200.0,0.923196590647978,Model A - property only,XGBoost
+Q1,26,1152.0,8640.0,1.0249898717023325,Model B - property + GIS,XGBoost
+Q2,25,9000.0,16320.0,0.9976819268588362,Model B - property + GIS,XGBoost
+Q3,25,17280.0,30720.0,1.0201813796470904,Model B - property + GIS,XGBoost
+Q4,25,32640.0,115200.0,0.9265955607096354,Model B - property + GIS,XGBoost

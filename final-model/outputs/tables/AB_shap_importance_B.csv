@@ -1,0 +1,16 @@
+Feature,Label,Mean |SHAP| (log scale),Typical effect on Annual Value (%)
+Total_Floor_Area,Total floor area (sq ft),0.6747145,96.34724
+Condition,Condition grade,0.043563873,4.4526696
+Dist_AB_Road,Distance to A/B road (m),0.024749678,2.5058508
+Age,Building age (years),0.02205201,2.2296906
+Dist_Bus_Stop,Distance to bus stop (m),0.019989401,2.0190477
+Num_Floors,Number of floors,0.015063986,1.5177965
+Dist_Pharmacy,Distance to pharmacy (m),0.014149553,1.4250159
+Dist_Railway,Distance to railway station (m),0.012520687,1.2599349
+Dist_Hospital,Distance to hospital (m),0.011966042,1.2037873
+Dist_CBD,Distance to CBD (m),0.008273858,0.8308172
+Dist_Supermarket,Distance to supermarket (m),0.007509344,0.75376034
+Dist_Bank,Distance to bank (m),0.0075058877,0.75341463
+Dist_School,Distance to school (m),0.0052116513,0.5225301
+Dist_Playground,Distance to playground (m),0.0030561765,0.30608177
+Dist_Shopping_Mall,Distance to shopping mall (m),0.0014606009,0.14616251

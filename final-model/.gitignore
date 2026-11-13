@@ -1,0 +1,23 @@
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# MacOS system files
+.DS_Store
+__MACOSX/
+**/__MACOSX/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Temporary files
+*.log

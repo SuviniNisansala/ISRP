@@ -1,0 +1,12 @@
+Raw file: 566 records x 22 columns.
+'Annual_Value': 3 literal 'NA' entries treated as missing.
+Numeric coercion: 0 malformed numeric value(s) set to missing.
+Condition: 'Fair +' -> 'Fair+'; 'Modern' and 'Good (Modern)' (n=4) merged into 'Good'; grade order Poor < Fair- < Fair < Fair+ < Good.
+'First_Floor_Area': 350 blank value(s) set to 0 (no such floor).
+'Second_Floor_Area': 461 blank value(s) set to 0 (no such floor).
+'Third_Floor_Area': 505 blank value(s) set to 0 (no such floor).
+Invalid values (outside valid range): 0 set to missing.
+Duplicates: 124 records share an assessment number with another record; 0 exact duplicate(s) (all attributes and distances identical) removed.
+Records without Annual Value: 64 (kept separately as unlabelled).
+Labelled records without floor area: 0 (excluded).
+Modelling dataset: 502 labelled records.

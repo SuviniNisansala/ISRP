@@ -1,0 +1,12 @@
+Variable,Group,|r| with log(Annual Value),Decision,Reason
+Dist_Railway,Public transport,0.1973970829101129,Retained,No |r| >= 0.70 with a retained variable; VIF <= 5
+Dist_CBD,Centrality,0.17320759127907778,Dropped,|r| = 0.98 with retained Dist_Railway
+Dist_School,Neighbourhood amenities,0.14194898878199946,Dropped,|r| = 0.95 with retained Dist_Railway
+Dist_Supermarket,Neighbourhood amenities,0.115209482515534,Dropped,|r| = 0.89 with retained Dist_Railway
+Dist_Bus_Stop,Public transport,0.09242376982012901,Dropped,|r| = 0.76 with retained Dist_Railway
+Dist_AB_Road,Road accessibility,0.07189926281883081,Retained,No |r| >= 0.70 with a retained variable; VIF <= 5
+Dist_Bank,Neighbourhood amenities,0.06718164822930221,Dropped,|r| = 0.71 with retained Dist_Railway
+Dist_Shopping_Mall,Neighbourhood amenities,0.06349178835229705,Dropped,|r| = 0.85 with retained Dist_Railway
+Dist_Playground,Neighbourhood amenities,0.03523599098600148,Dropped,|r| = 0.78 with retained Dist_Railway
+Dist_Hospital,Neighbourhood amenities,0.032337855875518996,Retained,No |r| >= 0.70 with a retained variable; VIF <= 5
+Dist_Pharmacy,Neighbourhood amenities,0.006967861574558893,Dropped,|r| = 0.75 with retained Dist_Hospital

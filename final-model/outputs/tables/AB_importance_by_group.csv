@@ -1,0 +1,4 @@
+Algorithm,GIS / location (all distances),Property characteristics
+Multiple Linear Regression,0.0,100.00000000000001
+Random Forest,1.758721718931426,98.24127828106857
+XGBoost,2.412937252924911,97.58706274707508

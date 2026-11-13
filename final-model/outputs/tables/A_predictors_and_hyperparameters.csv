@@ -1,0 +1,4 @@
+Model set,Algorithm,Predictors,Predictor list,Tuned hyperparameters
+Model A - property only,Multiple Linear Regression,4,"Age, Condition, Log_Total_Floor_Area, Num_Floors",none (OLS)
+Model A - property only,Random Forest,4,"Age, Condition, Total_Floor_Area, Num_Floors","{""max_depth"": 15, ""max_features"": 1.0, ""min_samples_leaf"": 2, ""min_samples_split"": 6, ""n_estimators"": 200}"
+Model A - property only,XGBoost,4,"Age, Condition, Total_Floor_Area, Num_Floors","{""subsample"": 0.7, ""reg_lambda"": 10, ""reg_alpha"": 0.01, ""n_estimators"": 900, ""min_child_weight"": 2, ""max_depth"": 3, ""learning_rate"": 0.02, ""gamma"": 0.05, ""colsample_bytree"": 1.0}"

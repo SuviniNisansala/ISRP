@@ -1,0 +1,50 @@
+Rank,Feature,Label,Mean,SD,Share of folds > 0,Relative importance (%),Model set,Algorithm
+1,Log_Total_Floor_Area,log(Total floor area),27928.726899398323,9402.300946234953,1.0,96.27805114562936,Model A - property only,Multiple Linear Regression
+2,Condition,Condition grade,1002.7446776792178,2253.9092280688183,0.8,3.4567384224623288,Model A - property only,Multiple Linear Regression
+3,Num_Floors,Number of floors,76.93331590639326,2255.283619727874,0.62,0.2652104319083074,Model A - property only,Multiple Linear Regression
+4,Age,Building age (years),-28.703116864786544,436.41039016868257,0.68,0.0,Model A - property only,Multiple Linear Regression
+1,Total_Floor_Area,Total floor area (sq ft),25606.276041570567,4549.381205208559,1.0,93.56281788892005,Model A - property only,Random Forest
+2,Num_Floors,Number of floors,1503.3870290566338,1622.4901594926444,0.84,5.493228558023579,Model A - property only,Random Forest
+3,Age,Building age (years),136.61054664215501,207.01323240939126,0.82,0.4991615210441121,Model A - property only,Random Forest
+4,Condition,Condition grade,121.73070253525893,102.93088402788672,0.98,0.44479203201224865,Model A - property only,Random Forest
+1,Total_Floor_Area,Total floor area (sq ft),24922.876406352047,4409.283215920029,1.0,93.40457933221825,Model A - property only,XGBoost
+2,Num_Floors,Number of floors,1543.4066098745452,1401.9589693851651,0.94,5.784294027039145,Model A - property only,XGBoost
+3,Condition,Condition grade,216.43059860293704,317.4821171938273,0.8,0.8111266407426071,Model A - property only,XGBoost
+4,Age,Building age (years),-183.52184446885593,520.3271213432782,0.54,0.0,Model A - property only,XGBoost
+1,Log_Total_Floor_Area,log(Total floor area),27040.096190585424,10295.120149588152,1.0,96.15331871084443,Model B - property + GIS,Multiple Linear Regression
+2,Condition,Condition grade,913.9670791110235,2823.7392891548548,0.8,3.2500242317769343,Model B - property + GIS,Multiple Linear Regression
+3,Num_Floors,Number of floors,167.79102833494366,2168.0413152428173,0.62,0.5966570573786434,Model B - property + GIS,Multiple Linear Regression
+4,Age,Building age (years),-43.53330433035052,244.3509696124786,0.56,0.0,Model B - property + GIS,Multiple Linear Regression
+5,Dist_Railway,Distance to railway station (m),-93.82054893222626,264.5035405916119,0.34,0.0,Model B - property + GIS,Multiple Linear Regression
+6,Dist_Hospital,Distance to hospital (m),-109.4100437817739,242.7699401006054,0.32,0.0,Model B - property + GIS,Multiple Linear Regression
+7,Dist_AB_Road,Distance to A/B road (m),-302.75355817979005,1092.948319111592,0.66,0.0,Model B - property + GIS,Multiple Linear Regression
+1,Total_Floor_Area,Total floor area (sq ft),25959.331310778387,4543.503570562438,1.0,94.78776219488718,Model B - property + GIS,Random Forest
+2,Num_Floors,Number of floors,863.952119028228,913.5631110333117,0.9,3.154630102980146,Model B - property + GIS,Random Forest
+3,Dist_Bank,Distance to bank (m),110.06616432344072,305.5673869541255,0.7,0.4018949981682268,Model B - property + GIS,Random Forest
+4,Dist_AB_Road,Distance to A/B road (m),100.94857082518234,116.04843324788156,0.96,0.36860306649417285,Model B - property + GIS,Random Forest
+5,Dist_Pharmacy,Distance to pharmacy (m),100.58574153009478,203.50210859219158,0.74,0.36727823356498956,Model B - property + GIS,Random Forest
+6,Condition,Condition grade,57.85931467217817,60.134807702690836,0.92,0.21126718921409396,Model B - property + GIS,Random Forest
+7,Dist_Bus_Stop,Distance to bus stop (m),54.22170348416197,97.15754567771185,0.78,0.19798483536147457,Model B - property + GIS,Random Forest
+8,Dist_Railway,Distance to railway station (m),35.44077839505935,46.472313365940934,0.84,0.1294082668885145,Model B - property + GIS,Random Forest
+9,Dist_Hospital,Distance to hospital (m),27.454347823873437,101.02004203529138,0.66,0.10024665741927398,Model B - property + GIS,Random Forest
+10,Age,Building age (years),23.995980593853048,78.12969339306065,0.62,0.08761879398715024,Model B - property + GIS,Random Forest
+11,Dist_CBD,Distance to CBD (m),23.84316333648457,35.09895482445184,0.78,0.08706079787864862,Model B - property + GIS,Random Forest
+12,Dist_Playground,Distance to playground (m),13.222794509529054,50.024143605791785,0.56,0.04828164048280787,Model B - property + GIS,Random Forest
+13,Dist_School,Distance to school (m),7.7586311680794235,28.727317394687468,0.64,0.028329823958616464,Model B - property + GIS,Random Forest
+14,Dist_Supermarket,Distance to supermarket (m),5.6577078141135395,26.322985855172032,0.72,0.020658523766738303,Model B - property + GIS,Random Forest
+15,Dist_Shopping_Mall,Distance to shopping mall (m),2.457930716498423,20.55178765780045,0.56,0.00897487494796241,Model B - property + GIS,Random Forest
+1,Total_Floor_Area,Total floor area (sq ft),25445.08649880715,4924.720026972819,1.0,93.99474874249073,Model B - property + GIS,XGBoost
+2,Num_Floors,Number of floors,732.7229831396845,676.8351846690304,0.92,2.706695954886677,Model B - property + GIS,XGBoost
+3,Condition,Condition grade,239.74347695953034,289.1406082823892,0.82,0.8856180496976727,Model B - property + GIS,XGBoost
+4,Dist_Bus_Stop,Distance to bus stop (m),230.15656769513365,489.6196758637556,0.66,0.8502037811092649,Model B - property + GIS,XGBoost
+5,Dist_Pharmacy,Distance to pharmacy (m),208.08910977207842,341.5786751492417,0.76,0.7686860718666454,Model B - property + GIS,XGBoost
+6,Dist_AB_Road,Distance to A/B road (m),91.5073152886023,250.5564602326359,0.74,0.3380301776162275,Model B - property + GIS,XGBoost
+7,Dist_Supermarket,Distance to supermarket (m),51.52703380143459,225.77157909074003,0.6,0.19034207629196784,Model B - property + GIS,XGBoost
+8,Dist_Playground,Distance to playground (m),31.178273651827578,100.28190838646803,0.66,0.11517327709872538,Model B - property + GIS,XGBoost
+9,Dist_Hospital,Distance to hospital (m),27.921263077015155,191.85672076963098,0.64,0.10314180333480319,Model B - property + GIS,XGBoost
+10,Dist_CBD,Distance to CBD (m),9.8099338756565,71.577216887466,0.6,0.03623812675449178,Model B - property + GIS,XGBoost
+11,Dist_Railway,Distance to railway station (m),2.624746398702088,125.36036977997463,0.54,0.009695875007944102,Model B - property + GIS,XGBoost
+12,Dist_Shopping_Mall,Distance to shopping mall (m),0.38604622460576216,15.2797107743957,0.52,0.001426063844841197,Model B - property + GIS,XGBoost
+13,Dist_Bank,Distance to bank (m),-1.9343089623924974,148.17056347493417,0.58,0.0,Model B - property + GIS,XGBoost
+14,Dist_School,Distance to school (m),-13.718212799999822,248.5588291041241,0.56,0.0,Model B - property + GIS,XGBoost
+15,Age,Building age (years),-42.068823493348155,174.1137428514008,0.54,0.0,Model B - property + GIS,XGBoost
